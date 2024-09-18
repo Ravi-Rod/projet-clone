@@ -1,0 +1,16 @@
+.movie-card{
+    width: 200px;
+    height: 300px;
+    &:hover{
+        transform: scale(1.2);
+        transition: all .3s ease-in-out;
+    }
+    .title{
+        position: absolute;
+        padding-bottom: 8px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
