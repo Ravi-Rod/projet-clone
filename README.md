@@ -1,27 +1,2 @@
-# NetflixClone
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Il s'agit d'un projet sur la mise en place d'un catalogue de séries et films, en prenant comme référence Netflix.
+Le projet de se compose d'une page de login: comprenant des input pour le nom (il faut y insérer un caractère minimum), un input pour le mot de passe (il faut y insérer 4 caractères minimum) et un bouton de connexion pour se rendre sur la page browse: celle ci comportant une partie de présentation de film composé d'une vidéo (Bande-Annonce) du titre et de la description (Synopsis), et d'une partie catégorie présentant des films triés par catégorie, tout ces films etant tirés de l'API de la base de donnée de films TMDB.
